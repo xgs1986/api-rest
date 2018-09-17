@@ -1,5 +1,6 @@
 MODO API REST
 ========================
+El documento adjunto pdf api_modo tiene una explicación detallada de las clases del proyecto
 
 Instalación 
 --------------
