@@ -4,7 +4,9 @@ namespace AppBundle\Services;
 use FOS\RestBundle\View\View;
 
 /**
- * Servicio que nos genera las vistas que recogeran los controladores en caso de error y success. De tal forma que si queremos cambiar las respuestas, ya lo tenemos aquí centralizado
+ * Servicio que nos genera las vistas que recogeran los controladores en caso de error y success. 
+ * Está adaptado a la respuesta de la api de modo para que se parezca
+ * Si queremos cambiar el formato de las respuestas aquí, ya lo tenemos centralizado
  * @author XGS
  *
  */
