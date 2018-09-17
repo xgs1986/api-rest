@@ -1,0 +1,29 @@
+#app:
+#    resource: '@AppBundle/Controller/'
+#    type: annotation
+
+# config routing
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing/swaggerui.xml"
+    prefix:   /api/doc
+
+
+api_login_check:
+    path: /api/login_check
+    
+# my-controllers
+login:
+    type: rest
+    resource: AppBundle\Controller\RestUserLoginController
+
+register:
+    type: rest
+    resource: AppBundle\Controller\RestUserRegisterController
+
+car-reservation:
+    type: rest
+    resource: AppBundle\Controller\RestCarReservationController
+    
+car-coordinates:
+    type: rest
+    resource: AppBundle\Controller\RestCarCoordinatesController
